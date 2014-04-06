@@ -12,5 +12,6 @@
     'jsonlint',
     'monokai',
     'package-sync',
-    'Zen'
+    'Zen',
+    'Prettify'
 ]

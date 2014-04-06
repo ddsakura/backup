@@ -1,0 +1,16 @@
+'packages': [
+    'SublimeSelect',
+    'atom-jshint',
+    'autocomplete-plus',
+    'color-picker',
+    'csslint',
+    'editorconfig',
+    'emmet',
+    'fizzy',
+    'highlight-line',
+    'javascript-snippets',
+    'jsonlint',
+    'monokai',
+    'package-sync',
+    'Zen'
+]

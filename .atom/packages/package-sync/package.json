@@ -1,0 +1,32 @@
+{
+  "name": "package-sync",
+  "main": "./lib/package-sync",
+  "version": "0.0.3",
+  "description": "Synchronizes packages installed between computers",
+  "activationEvents": [
+    "package-sync:sync"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lee-dohm/package-sync"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "season": "~1.0"
+  },
+  "readme": "# Package Sync for Atom\n\nSynchronizes packages installed between computers.\n\n## Use\n\nPackage Sync reads `~/.atom/packages.cson` (which at this point must be hand generated and maintained), compares what is in there to the list of available packages and installs any packages that it finds are missing.\n\nPackage Sync can be activated from the `Packages > Package Sync > Sync` menu item, from the \"Package Sync: Sync\" entry in the command palette, or the `package-sync:sync` command can be mapped to a key for easier activation.\n\n## Configuration\n\nThe `packages.cson` file follows the format:\n\n```cson\n'packages': [\n  'foo'\n  'bar'\n  'baz'\n]\n```\n\nWhere the contents of the array is a list of packages to ensure are installed.\n\n## Copyright\n\nCopyright &copy; 2014 by [Lee Dohm](http://www.lee-dohm.com), [Lifted Studios](http://www.liftedstudios.com). See the [LICENSE](https://github.com/lee-dohm/package-sync/LICENSE.md) for more details.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/lee-dohm/package-sync/issues"
+  },
+  "homepage": "https://github.com/lee-dohm/package-sync",
+  "_id": "package-sync@0.0.3",
+  "dist": {
+    "shasum": "382ffb015cf74fb1d75531561e95e7593c0a97a5"
+  },
+  "_resolved": "/var/folders/z3/_10zzrln3sx8s2kp9l1gxbvr0000gn/T/d-11436-2219-e7ohht/package.tgz",
+  "_from": "/var/folders/z3/_10zzrln3sx8s2kp9l1gxbvr0000gn/T/d-11436-2219-e7ohht/package.tgz"
+}

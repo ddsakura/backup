@@ -1,0 +1,20 @@
+'editor':
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+'exception-reporting':
+  'userId': 'c4c15ebb-29f5-e166-fd5b-e5309bfe5354'
+'release-notes':
+  'viewedVersion': '0.84.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '3d2582e3a37158aa4423cfcfe0cb7666899414de'

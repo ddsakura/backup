@@ -13,5 +13,6 @@
     'monokai',
     'package-sync',
     'Zen',
-    'Prettify'
+    'pretty-json',
+    'atom-beautify'
 ]
